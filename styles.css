@@ -1,0 +1,58 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* esse faz o tamanho do body ser 100% da vista do navegador */
+    height: 100vh;
+}
+
+.card {
+    /* deixa o cartao branco */
+    background-color: hsl(0, 0%, 100%);
+
+    /* efeito sombra de 5px no card */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+
+    /* cantos arredondados */
+    border-radius: 0.625rem;
+
+    /* afasta o conteúdo da borda */
+    padding: 1rem;
+
+    /* afasta footer do card */
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+
+img {
+    width: 100%;
+    border-radius: 0.625rem;
+    max-height: 18rem;
+    max-width: 18rem;
+}
+
+h1 {
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    width: 100%;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+}
